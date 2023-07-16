@@ -1,0 +1,3 @@
+pollution_flashover
+broken
+insulator
