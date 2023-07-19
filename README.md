@@ -1,7 +1,7 @@
 # FBID
-an insulator dataset FBID with 1600 imagescontained defect types of flashover and breakage
+an insulator dataset FBID with 1600 images contained defect types of flashovers and breakages
 
-1. Build a dataset for object detection based on YOLOv5:
+1. The dataset can be downloaded from here.The annotation in YOLO format can be obtained from here. Afterward,please organize the datasets and annotations as following:
 
 1). Create the "images" folder
 
@@ -10,20 +10,17 @@ an insulator dataset FBID with 1600 imagescontained defect types of flashover an
 3). Copy the "train" and "test" folders to the" images" folder
 
 2. File directory structure of the FBID dataset:
-
 FBID
-
-——images
-————train
-——————.JPG
-————test
-——————.JPG
-
-——labels
-————train
-——————.txt
-————test
-——————.txt
-
+|__images
+  |__train
+    |__.JPG
+  |__test
+    |__.JPG
+|__labels
+  |__train
+    |__.txt
+  |__test
+    |__.txt
+    
 3.notice:
 "Train-A" and "train-B" are redundant files that have been included in the "train" folder
