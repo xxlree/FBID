@@ -21,6 +21,3 @@ FBID
     |__.txt
   |__test
     |__.txt
-    
-3.notice:
-"Train-A" and "train-B" are redundant files that have been included in the "train" folder
